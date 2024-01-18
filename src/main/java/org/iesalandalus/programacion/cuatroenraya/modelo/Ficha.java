@@ -5,7 +5,7 @@ public enum Ficha {
     VERDE("V"),
     AZUL("A");
 
-    private final String cadenaMostrar;
+    public final String cadenaMostrar;
 
     Ficha(String nombre) {
         this.cadenaMostrar = nombre;
